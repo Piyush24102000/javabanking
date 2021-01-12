@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>bankfinal</display-name>
+ 
+<servlet>  
+<servlet-name>bankfinal</servlet-name>  
+<servlet-class>bankfinal</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>bankfinal</servlet-name>  
+<url-pattern>/bankfinal</url-pattern>  
+</servlet-mapping>  
+
+<servlet>  
+<servlet-name>search</servlet-name>  
+<servlet-class>search</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>search</servlet-name>  
+<url-pattern>/search</url-pattern>  
+</servlet-mapping>  
+
+<servlet>
+<servlet-name>balance</servlet-name>
+<servlet-class>balance</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>balance</servlet-name>
+<url-pattern>/balance</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>deposit</servlet-name>
+<servlet-class>deposit</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>deposit</servlet-name>
+<url-pattern>/deposit</url-pattern>
+</servlet-mapping>
+
+
+
+</web-app>
